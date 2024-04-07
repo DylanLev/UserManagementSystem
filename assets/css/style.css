@@ -118,3 +118,89 @@ td{
     border: none;
     position: relative;
 }
+/* Reset CSS */
+
+
+
+
+
+
+/* #header .container {
+    display: flex;
+    justify-content: center;
+} */
+/* 
+#header .nav-brand {
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+} */
+
+/* Main Site styles */
+/* #site-main {
+    padding: 20px;
+} */
+
+/* Box nav styles */
+/* .box-nav {
+    margin-bottom: 20px;
+} */
+/* 
+.box-nav .filter a {
+    color: #007bff;
+    text-decoration: none;
+} */
+
+/* Form title styles */
+.form-title {
+    margin-bottom: 20px;
+}
+
+.form-title h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.form-title span {
+    color: #999;
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="radio"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="radio"] + label {
+    margin-right: 10px;
+}
+
+.form-group button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
