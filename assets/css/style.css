@@ -1,0 +1,101 @@
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+#header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+#header .container {
+    display: flex;
+    justify-content: center;
+}
+
+#header .nav-brand {
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main Site styles */
+#site-main {
+    padding: 20px;
+}
+
+/* Box nav styles */
+.box-nav {
+    margin-bottom: 20px;
+}
+
+.box-nav a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Table styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn.update {
+    background-color: #28a745;
+}
+
+.btn.delete {
+    background-color: #dc3545;
+}
+
+/* Text gradient */
+.text-gradient {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* FontAwesome icons */
+.fa-user,
+.fa-pencil-alt,
+.fa-times {
+    margin-right: 5px;
+}
